@@ -1,0 +1,7 @@
+<launch>
+	<!--Set the keyboard control for ClearPath heron-->
+	<node name="keyboard_control" pkg="turtlesim" type="turtle_teleop_key">
+		<remap from="/turtle1/cmd_vel" to="/cmd_vel"/>
+	</node>
+	<node name="Twist_RandL" pkg="heron_controller" type="twist_RandL"/>
+</launch>

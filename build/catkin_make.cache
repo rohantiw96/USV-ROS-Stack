@@ -1,0 +1,2 @@
+LMS1xx:heron/heron_description:heron/heron_msgs:heron_controller:heron_nav:heron_robot/heron_base:heron_robot/heron_bringup:heron_robot/heron_localization:heron_robot/heron_nmea:heron_robot/heron_robot:ntu10_heron:robot_upstart:um6
+-DCATKIN_DEVEL_PREFIX=/home/lukewen/heron_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lukewen/heron_ws/install

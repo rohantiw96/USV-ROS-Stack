@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="heron_nav" pkg="heron_nav" type="heron_nav">
+  <param name="goal_x" type="double" value="20.0" />
+  <param name="goal_y" type="double" value="20.0" />
+  <param name="goal_w" type="double" value="1.0" />
+</node>
+\endverbatim
+

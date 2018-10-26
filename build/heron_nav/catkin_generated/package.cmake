@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heron_nav")
+set(heron_nav_MAINTAINER "lukewen <lukewen@todo.todo>")
+set(heron_nav_DEPRECATED "")
+set(heron_nav_VERSION "0.0.0")
+set(heron_nav_BUILD_DEPENDS "move_base_msgs" "roscpp" "rospy" "std_msgs" "dynamic_reconfigure" "orocos_kdl" "tf" "visualization_msgs" "geometry_msgs" "nav_msgs" "actionlib" "message_generation")
+set(heron_nav_RUN_DEPENDS "message_runtime" "move_base_msgs" "roscpp" "rospy" "std_msgs" "dynamic_reconfigure" "orocos_kdl" "tf" "visualization_msgs" "geometry_msgs" "nav_msgs" "actionlib")
+set(heron_nav_BUILDTOOL_DEPENDS "catkin")

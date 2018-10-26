@@ -1,0 +1,13 @@
+# Default configuration. To achieve more accuracy in the compass, periodically
+# regenerate. With Heron deployed in water, run
+#
+#   rosrun heron_bringup calibrate_compass
+#
+# Heron will rotate slowly for 60 seconds and a new calibration will be
+# generated.
+#
+mag_bias:
+     x: -0.824068
+     y: 0.356617
+     z: -0.592781
+     radius: 0.385647

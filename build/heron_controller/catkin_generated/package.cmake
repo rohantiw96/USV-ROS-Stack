@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heron_controller")
+set(heron_controller_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(heron_controller_DEPRECATED "")
+set(heron_controller_VERSION "0.1.0")
+set(heron_controller_BUILD_DEPENDS "control_toolbox" "heron_msgs" "sensor_msgs" "tf")
+set(heron_controller_RUN_DEPENDS "control_toolbox" "heron_msgs" "sensor_msgs" "tf")
+set(heron_controller_BUILDTOOL_DEPENDS "catkin")

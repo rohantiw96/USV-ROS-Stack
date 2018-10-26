@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heron_robot")
+set(heron_robot_MAINTAINER "Tony Baltovski <tbaltovski@clearpathrobotics.com>")
+set(heron_robot_DEPRECATED "")
+set(heron_robot_VERSION "0.1.5")
+set(heron_robot_BUILD_DEPENDS )
+set(heron_robot_RUN_DEPENDS "heron_bringup" "heron_controller" "heron_firmware" "heron_nmea")
+set(heron_robot_BUILDTOOL_DEPENDS "catkin")

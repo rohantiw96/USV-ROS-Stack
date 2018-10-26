@@ -1,0 +1,8 @@
+image: nanyanglake.pgm
+
+resolution: 0.157 # meters/pixel
+origin: [-20, -20, 0] #2D pose wrt lower left piixel as (x,y,yaw(ccw))
+
+occupied_thresh: 0.75 # Pixels with occupancy probabiliyty greater than this threshold are considered completely occupied
+free_thresh: 0.196 #Pixels with occupancy probobility less than threshold are considered completely free
+negate: 0 # Whether the white/black free/occupied semantics should be reversed (interpretation of thresholds is unaffected)

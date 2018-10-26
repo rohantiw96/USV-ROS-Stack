@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/install
+
+Name: robot_upstart
+Description: Description of robot_upstart
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/install/lib 
+Requires: 

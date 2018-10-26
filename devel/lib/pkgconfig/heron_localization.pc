@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: heron_localization
+Description: Description of heron_localization
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: 

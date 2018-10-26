@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="heron_controller" pkg="heron_controller" type="heron_controller">
+  <param name="width_robot" type="double" value="0.76" />
+  <param name="forward_ratio" type="double" value="1.7" />
+  <param name="backward_ratio" type="double" value="0.5" />
+  <param name="forward_offset" type="double" value="0.0" />
+  <param name="backward_offset" type="double" value="0.0" />
+  <param name="rotation_ratio" type="double" value="7.5" />
+</node>
+\endverbatim
+

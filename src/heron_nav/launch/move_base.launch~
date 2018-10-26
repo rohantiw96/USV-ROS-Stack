@@ -1,0 +1,23 @@
+<launch>
+	<!--Include the robot_description and gazebo simulator-->
+	<include file="$(find heron_description)/launch/model_gazebo.launch"/>
+
+	<!-- Run the map server with a nanyanglake map-->
+	<node name="map_server" pkg="map_server" type="map_server" args="$(find heron_nav)/maps/nanyanglake.yaml"/>
+	
+	<!--Launch move_base and configuration files-->
+	<node name="move_base" pkg="move_base" type="move_base" output="screen">
+		<rosparam file="$(find heron_nav)/config/costmap_common_params.yaml" command="load" ns="global_costmap"/>	
+		<rosparam file="$(find heron_nav)/config/costmap_common_params.yaml" command="load" ns="local_costmap"/>
+		<rosparam file="$(find heron_nav)/config/local_costmap_params.yaml" command="load" />
+		<rosparam file="$(find heron_nav)/config/global_costmap_params.yaml" command="load"/>
+		<rosparam file="$(find heron_nav)/config/base_local_planner_params.yaml" command="load"/>
+        </node>
+
+	<!-- Run the tf static transform between map and odom-->
+	
+	<node name="map_odom_broadcaster" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /odom 100"/>
+		
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find heron_nav)/launch/default.rviz"/>
+</launch>
+	

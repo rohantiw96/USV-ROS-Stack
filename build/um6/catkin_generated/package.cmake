@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "um6")
+set(um6_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(um6_DEPRECATED "")
+set(um6_VERSION "1.1.2")
+set(um6_BUILD_DEPENDS "serial" "roscpp" "roslint" "sensor_msgs" "message_generation")
+set(um6_RUN_DEPENDS "serial" "roscpp" "sensor_msgs" "message_runtime")
+set(um6_BUILDTOOL_DEPENDS "catkin")

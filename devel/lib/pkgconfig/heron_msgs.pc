@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: heron_msgs
+Description: Description of heron_msgs
+Version: 0.2.2
+Cflags: -I/home/lukewen/heron_ws/devel/include
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: std_msgs message_runtime

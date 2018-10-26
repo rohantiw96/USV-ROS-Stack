@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="robot_localization" type="ekf_localization_node" name="efk_localization_global" respawn="true">
+		<rosparam command = "load" file="$(find heron_localization)/config/localization_global.yaml"/>
+		<remap from = "odometry/filtered" to="odometry/filtered/global"/>
+	</node>
+
+	<node pkg ="robot_localization" type="navsat_tranform_node" name="navsat_tranform" clear_params="true">
+		<rosparam command="load" file="$(find hero_localization)/config/gps_navsat_transform.yaml"/>
+		<remap from="gps/fix" to="navsat/fix"/>
+		<remap from="imu/data" to="middle_middle_imu/imu/data"/>
+		<remap from="odometry/filtered" to="odometry/filtered/global"/>
+	</node>
+
+</launch>

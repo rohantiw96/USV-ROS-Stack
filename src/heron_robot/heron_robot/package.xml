@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>heron_robot</name>
+  <version>0.1.5</version>
+  <description>Metapackage of what goes on the Heron by default.</description>
+  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/Robots/Heron</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>heron_bringup</run_depend>
+  <run_depend>heron_controller</run_depend>
+  <run_depend>heron_firmware</run_depend>
+  <run_depend>heron_nmea</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>

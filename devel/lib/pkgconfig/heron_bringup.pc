@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: heron_bringup
+Description: Description of heron_bringup
+Version: 0.1.5
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: 

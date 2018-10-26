@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: heron_nav
+Description: Description of heron_nav
+Version: 0.0.0
+Cflags: -I/home/lukewen/heron_ws/devel/include
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: 

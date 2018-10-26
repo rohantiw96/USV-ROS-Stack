@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heron_description")
+set(heron_description_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(heron_description_DEPRECATED "")
+set(heron_description_VERSION "0.2.2")
+set(heron_description_BUILD_DEPENDS "roslaunch")
+set(heron_description_RUN_DEPENDS "lms1xx" "robot_state_publisher" "urdf" "xacro")
+set(heron_description_BUILDTOOL_DEPENDS "catkin")

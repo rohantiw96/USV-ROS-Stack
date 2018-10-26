@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: ntu10_heron
+Description: Description of ntu10_heron
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: 

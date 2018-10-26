@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>heron_bringup</name>
+  <version>0.1.5</version>
+  <description>
+    Provides upstart setup for Heron, and launch files for the standard
+    configuration. Also provides configuration for u-blox GPS receiver
+    which is part of Heron's sensor suite.
+  </description>
+  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>axis_camera</run_depend>
+  <run_depend>heron_base</run_depend>
+  <run_depend>lms1xx</run_depend>
+  <run_depend>nmea_comms</run_depend>
+  <run_depend>nmea_navsat_driver</run_depend>
+  <run_depend version_gte="0.1.1">robot_upstart</run_depend>
+
+  <export>
+  </export>
+</package>

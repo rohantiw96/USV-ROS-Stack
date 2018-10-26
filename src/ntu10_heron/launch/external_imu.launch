@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="um6" type="um6_driver" name="external_um6_driver">
+    <param name="port" value="/dev/clearpath/ex-imu"/>
+    <param name="mag_updates" value="false" />
+    <param name="frame_id" value="external_imu_link" />
+    <remap from="/imu/data" to="/external/imu/data" />
+    <remap from="/imu/mag" to="/external/imu/mag" />
+    <remap from="/imu/rpy" to="/external/imu/rpy" />
+    <remap from="/imu/temperature" to="/external/imu/temperature" />
+  </node>
+</launch>

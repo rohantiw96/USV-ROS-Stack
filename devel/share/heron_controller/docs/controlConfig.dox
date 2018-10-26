@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~width_robot" : \b [double] The width of heron robot min: 0.1, default: 0.76, max: 2.5
+- \b "~forward_ratio" : \b [double] The forward ratio reflection min: 1.0, default: 1.7, max: 4.0
+- \b "~backward_ratio" : \b [double] The backward ratio reflection min: 0.1, default: 0.5, max: 1.5
+- \b "~forward_offset" : \b [double] The offset for forward speed min: 0.0, default: 0.0, max: 1.7
+- \b "~backward_offset" : \b [double] The offset for backward speed min: 0.0, default: 0.0, max: 1.0
+- \b "~rotation_ratio" : \b [double] The ratio for yaw command min: 0.0, default: 7.5, max: 10.0
+

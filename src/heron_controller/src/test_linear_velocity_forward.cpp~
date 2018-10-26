@@ -1,0 +1,39 @@
+#include <ros/ros.h>
+#include <ros/Time.h>
+#include <geometry_msgs/Twist.h>
+#include <heron_msgs/Drive.h>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	ros::init(argc,argv,"forward_speed");
+	ros::NodeHandle nh;
+	//ros::Subscriber drive_sub = nh.subscribe<heron_msgs::Drive>("cmd_drive",2);
+	//Subscriber for the cmd_drive topics
+	ros::Publisher  drive_pub = nh.advertise<heron_msgs::Drive>("cmd_drive",2);
+	//The variables used in this programme	
+	float left;
+	float right; //The ros node params
+	heron_msgs::Drive drive;
+	ros::Time time1;
+	ros::Time time2;// The time for timer
+	double secs;
+	int distance = 10;
+	double speed;//The speed of heron
+	nh.param("left",left,1.0);
+	nh.param("right",right,1.0);
+	drive.left = left;
+	drive.right = right;
+	time1 = ros::Time::now();
+	drive_pub.publish(drive);
+	
+	ros::spin();
+	time2 = ros::Time::now();
+	secs = (time2 - time1).toSec();
+ 	speed = distance / secs;
+	ros::info("The speed of heron is %f",speed);	
+	return 0;
+	
+}

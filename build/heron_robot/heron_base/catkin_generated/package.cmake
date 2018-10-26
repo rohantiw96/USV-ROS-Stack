@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heron_base")
+set(heron_base_MAINTAINER "Mike Purvis <mpurvis@clearpathrobotics.com>")
+set(heron_base_DEPRECATED "")
+set(heron_base_VERSION "0.1.5")
+set(heron_base_BUILD_DEPENDS "roslaunch")
+set(heron_base_RUN_DEPENDS "heron_description" "robot_upstart" "heron_msgs" "heron_controller" "nmea_msgs" "nmea_comms" "nmea_navsat_driver" "enu" "rosserial_python" "rosserial_server" "tf" "um6" "imu_compass" "declination" "robot_pose_ekf_gpsfix" "wireless_watcher")
+set(heron_base_BUILDTOOL_DEPENDS "catkin")

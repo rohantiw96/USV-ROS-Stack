@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/install
+
+Name: um6
+Description: Description of um6
+Version: 1.1.2
+Cflags: -I/home/lukewen/heron_ws/install/include
+Libs: -L/home/lukewen/heron_ws/install/lib 
+Requires: message_runtime

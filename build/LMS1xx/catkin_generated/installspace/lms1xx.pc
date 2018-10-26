@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/install
+
+Name: lms1xx
+Description: Description of lms1xx
+Version: 0.1.5
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/install/lib 
+Requires: roscpp

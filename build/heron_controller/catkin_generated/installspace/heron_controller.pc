@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/install
+
+Name: heron_controller
+Description: Description of heron_controller
+Version: 0.1.0
+Cflags: -I/home/lukewen/heron_ws/install/include
+Libs: -L/home/lukewen/heron_ws/install/lib 
+Requires: 

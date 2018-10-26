@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ntu10_heron")
+set(ntu10_heron_MAINTAINER "Clearpath Team <code@clearpathrobotics.com>")
+set(ntu10_heron_DEPRECATED "")
+set(ntu10_heron_VERSION "0.0.0")
+set(ntu10_heron_BUILD_DEPENDS )
+set(ntu10_heron_RUN_DEPENDS "heron_bringup" "heron_description")
+set(ntu10_heron_BUILDTOOL_DEPENDS "catkin")

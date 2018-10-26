@@ -1,0 +1,30 @@
+map_frame: map
+odo_frame: odom
+base_link_frame: base_link
+world_frame: map
+sensor_timeout: 0.5
+two_d_mode: true
+
+frequency: 10
+
+odom0: odometry/gps
+odom0_config: [true, true, false,
+	       false,false,false,
+		true,fasle,fasle,
+		false,fasle,false,
+		false,false,false]
+odom0_differential: false //with GPS,must be false
+odom0_queue_size: 10
+
+
+imu0: middle_middle_imu/imu/data
+imu0_config: [fasle,false,false，
+		true,true,true,
+		false,false,false,
+		true,true,true,
+		true,false,fasle]
+imu0_differential: false
+imu0_queue_size: 10
+
+
+print_diagnostics: true

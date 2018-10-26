@@ -1,0 +1,8 @@
+prefix=/home/lukewen/heron_ws/devel
+
+Name: heron_base
+Description: Description of heron_base
+Version: 0.1.5
+Cflags: 
+Libs: -L/home/lukewen/heron_ws/devel/lib 
+Requires: 

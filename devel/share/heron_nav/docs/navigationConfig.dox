@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~goal_x" : \b [double] The x position of goal min: 0.0, default: 20.0, max: 100.0
+- \b "~goal_y" : \b [double] The y position of goal min: 0.0, default: 20.0, max: 100.0
+- \b "~goal_w" : \b [double] The orientation of goal min: 0.0, default: 1.0, max: 100.0
+

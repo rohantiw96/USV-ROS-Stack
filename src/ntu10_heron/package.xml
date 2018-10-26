@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>ntu10_heron</name>
+  <version>0.0.0</version>
+  <description>Customizations for the NTU10 Heron</description>
+  <maintainer email="code@clearpathrobotics.com">Clearpath Team</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>heron_bringup</run_depend>
+  <run_depend>heron_description</run_depend>
+</package>
